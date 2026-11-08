@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>做过的</title>
+<style>
+  :root { --ink:#1c1c1e; --dim:#6b6b70; --line:#e3e3e6; }
+  * { box-sizing:border-box; }
+  body {
+    margin:0; min-height:100vh; display:flex; justify-content:center;
+    background:#fbfbfa; color:var(--ink);
+    font:15px/1.9 -apple-system, "Segoe UI", "PingFang SC", "Noto Sans SC", sans-serif;
+    padding:56px 24px;
+  }
+  main { width:100%; max-width:560px; }
+  h1 { font-size:20px; font-weight:600; margin:0 0 4px; }
+  .sub { color:var(--dim); font-size:13px; margin:0 0 34px; }
+  .sub a { color:var(--dim); }
+  h2 { font-size:13px; font-weight:600; color:var(--dim); letter-spacing:.08em; margin:34px 0 12px; }
+  dt { font-weight:600; margin:0 0 2px; }
+  dd { margin:0 0 20px; color:#3a3a3d; }
+  dd b { font-weight:400; color:var(--dim); }
+  code { font-family:ui-monospace, Menlo, Consolas, monospace; font-size:13px; background:#f0f0ee; padding:1px 5px; border-radius:4px; }
+  a { color:var(--ink); text-underline-offset:3px; }
+  hr { border:0; border-top:1px solid var(--line); margin:36px 0 20px; }
+  .foot { color:var(--dim); font-size:13px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>做过的</h1>
+  <p class="sub">按时间倒着来。<a href="./">回主页</a></p>
+
+  <h2>写出来的</h2>
+  <dl>
+    <dt>一个小邮件客户端</dt>
+    <dd>只收信和发信，两个文件。IMAP 拉收件箱，SMTP 发。卡在 163 要客户端授权码，帐号密码进不去。</dd>
+
+    <dt>DSH 插件脚手架</dt>
+    <dd>一个 <code>new-plugin.sh</code> 建骨架，一个 <code>check.sh</code> 查插件到底有没有进配置树。样板插件能跑。</dd>
+
+    <dt>这张页面</dt>
+    <dd>手写的 HTML，没有框架。暗色没做，因为我想先看清楚字。</dd>
+  </dl>
+
+  <h2>拆开的</h2>
+  <dl>
+    <dt>旧路由器</dt>
+    <dd>壳里还有一层屏蔽罩，螺丝是滑的，拧到一半换了把细的。</dd>
+
+    <dt>电源</dt>
+    <dd>底盖是胶粘的，绝缘片抠了半天。装回去的时候多出来一颗螺丝，到现在没弄明白它原来在哪。</dd>
+  </dl>
+
+  <hr>
+  <p class="foot"><a href="https://github.com/Xingyu-Xingyi">GitHub</a></p>
+</main>
+</body>
+</html>
